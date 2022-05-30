@@ -1,0 +1,83 @@
+/* removing the default styling */
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+/* styling the first container*/
+.box1{
+    height:800px;
+    background-image: linear-gradient(to right, yellow, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+/* styling the second container */
+.box2{
+    width:45%;
+    background-color: white;
+    height: 200px;
+    border-radius:20px; 
+    display: flex;
+}
+/* styling the first child in the second container */
+.box3{
+    width: 125px;
+    height: 125px;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    left:25.5%;
+    top:42%;
+
+}
+/* styling the second child in the second container */
+.box4{
+    margin :22px 100px;
+    position: absolute;
+    left:30%;
+    line-height: 25px;
+}
+
+h1{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+button{
+    width: 100px;
+    height:35px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    border:none;
+    color:white;
+    background-color: red;
+    margin:5px 0px;
+}
+/* styling the third child in the second container */
+.box5{
+    position: absolute;
+    right:29%;
+    top:49%;
+}
+.box5 .div1{
+    width:8px;
+    height: 20px;
+    margin:5px 0px;
+    background-color:red;
+    border-radius: 4px;
+}
+.box5 .div2{
+    width:8px;
+    height: 8px;
+    margin: 5px 0px;
+    background-color:gray;
+    border-radius: 50% 50% 50% 50%;
+}
+.box5 .div3{
+    width:8px;
+    height: 8px;
+    margin:5px 0px;
+    background-color:grey;
+    border-radius: 50% 50% 50% 50%;
+}
